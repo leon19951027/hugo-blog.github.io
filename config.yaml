@@ -15,7 +15,7 @@
 baseURL: /
 # 站点标题
 # Website title
-title: 尼玛
+title: zzzjy
 # 主题名称
 # Theme name
 theme: hugo-theme-next
@@ -158,7 +158,7 @@ params:
   # 需要显示文章的部分，即content目录下的文件夹名称
   # Sections for show in home & archive page
   # and it's forlder name which under content
-  mainSections: ["kubernetes"]
+  mainSections: ["kubernetes", "network"]
   # 年，月，日及时间的格式化样式
   # Format style for year,month,date & time
   yearFormat: "2006"
@@ -170,8 +170,8 @@ params:
   # Schemes
   #scheme: Muse
   #scheme: Mist
-  scheme: Pisces
-  #scheme: Gemini
+  #scheme: Pisces
+  scheme: Gemini
 
   # 开启暗模式
   # Dark Mode
@@ -180,9 +180,9 @@ params:
   # 站点基本信息
   # Site Information Settings
   author: zzzjy
-  subtitle: 为 Hugo 打造的主题
-  description: 保持简单的易用性和强大的功能。
-  keywords: Hugo,NexT,主题,简单,强大
+  subtitle: 啥都有
+  #description: 保持简单的易用性和强大的功能。
+  #keywords: Hugo,NexT,主题,简单,强大
 
   # 不同尺寸站点图标
   # Different size of favicon
@@ -213,7 +213,7 @@ params:
     license: by-nc-sa
     # 可选配置： big | small
     # Available values: big | small
-    size: big
+    size: small
     # 侧边栏显示
     # Show in sidebar
     sidebar: true
@@ -257,7 +257,7 @@ params:
     # Manual define the sidebar width. If commented, will be default for:
     # Muse | Mist: 320
     # Pisces | Gemini: 240
-    width: 256
+    width: 300
 
     # 侧边栏的显示方式，可选值：
     #  - post    默认在文章页面展开显示
@@ -270,7 +270,7 @@ params:
     #  - always  expand for all pages automatically.
     #  - hide    expand only when click on the sidebar toggle icon.
     #  - remove  totally remove sidebar including sidebar toggle.
-    display: hide
+    display: always
 
     # 侧边栏内部填充像素大小
     # Sidebar padding in pixels.

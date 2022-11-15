@@ -1,5 +1,5 @@
 ---
-title: "List and Watch"
+title: "Kubernetes List and Watch"
 description: "kubernetes 各组件通过此机制与api server 通信"
 keywords: "kubernetes listwatch 机制"
 
@@ -14,7 +14,7 @@ categories:
 
 # 原文作者
 # Post's origin author name
-#author:
+author: zzzjy
 # 原文链接
 # Post's origin link URL
 #link:
@@ -33,7 +33,7 @@ categories:
 #  enable: false
 # 关闭文章目录功能
 # Disable table of content
-#toc: false
+toc: true
 # 绝对访问路径
 # Absolute link for visit
 #url: "listwatch.html"
@@ -47,4 +47,9 @@ categories:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-# 
+<b>list and watch机制的研究，探讨</b>
+<!--more-->
+# 事件
+    先看一下一个pod是如何被创建和调度的时序图
+![](/images/kube/event1.png)
+    这里就有一个问题了,这么多controller是如何知道自己的事件的。从时序图上得知，是apiserver主动告诉各个controller对应的事件的，

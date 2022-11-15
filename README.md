@@ -12,4 +12,8 @@ https://themes.gohugo.io/
     ```
      git submodule add https://github.com/hugo-next/hugo-theme-next.git themes/hugo-theme-next
     ```
-4. 
+4. 创建第一个md
+```
+hugo new tests/ttt.md
+```
+![](/static/images/kube/event1.png)
