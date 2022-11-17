@@ -7,7 +7,7 @@ date: 2022-11-15T16:51:01+08:00
 lastmod: 2022-11-15T16:51:01+08:00
 
 categories:
-  -
+  - kubernetes
 tags:
   -
   -
